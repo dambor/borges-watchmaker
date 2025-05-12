@@ -77,3 +77,215 @@
     flex: 0 0 40%;
   }
 }
+/* Help Section - Relógio Parou */
+.help-section {
+    background-color: #f9efe7;
+    padding: 60px 20px;
+  }
+  
+  .help-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .help-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .help-features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    color: #b25d31;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .feature-card p {
+    max-width: 300px;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  /* Restoration Section - Relógios Antigos */
+  .restoration-section {
+    background-color: #1a3630;
+    padding: 60px 20px;
+    color: white;
+  }
+  
+  .restoration-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .restoration-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #c9af8c;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .restoration-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .restoration-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .restoration-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .restoration-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .restoration-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #c9af8c;
+    font-weight: 500;
+  }
+  
+  .restoration-card p {
+    max-width: 300px;
+    color: white;
+    line-height: 1.4;
+  }
+  
+  /* Contact Section - Uberlândia MG */
+  .contact-section {
+    background-color: #1a3630;
+    padding: 60px 20px;
+    color: white;
+    border-top: 1px solid rgba(201, 175, 140, 0.3);
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #c9af8c;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-item h3 {
+    color: #c9af8c;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .contact-item p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Media queries for desktop */
+  @media (min-width: 768px) {
+    .help-features {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 60px;
+    }
+    
+    .restoration-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+    
+    .contact-content {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 40px;
+    }
+    
+    .contact-image {
+      flex: 1;
+      margin-bottom: 0;
+      height: auto;
+      max-height: 400px;
+    }
+    
+    .contact-info {
+      flex: 1;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .contact-item {
+      max-width: 400px;
+    }
+  }
